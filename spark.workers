@@ -1,0 +1,12 @@
+universe = vanilla
+executable=$(SUBMIT_FILE).sh
+
+transfer_input_files=env
+transfer_output_files=""
+
++RequiresWholeMachine = True
++WantIOProxy = true
+
+log=logs/$(SUBMIT_FILE).$(Cluster).$(Step).log
+error=logs/$(SUBMIT_FILE).$(Cluster).$(Step).err
+output=logs/$(SUBMIT_FILE).$(Cluster).$(Step).out

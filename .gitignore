@@ -1,0 +1,5 @@
+./axs-dist
+spark-webui.url
+spark-master.url
+*.log
+env.sh
