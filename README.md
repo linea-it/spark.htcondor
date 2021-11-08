@@ -34,6 +34,6 @@ To stop the jobs either call ```./spark.stop.sh``` or manually delete spark-mast
 ## Other solutions
 * https://github.com/rlmv/spark-condor/
 
-# This repository was inspired by that solution
+### This repository was inspired by this solution
 * https://github.com/SmartDataInnovationLab/spark.condor 
 
