@@ -22,7 +22,7 @@ Note: The master runs on the first worker node
 
 ## Accessing the Cluster
 
-You may submit a job using (bash syntax) e.g. ```source env/bin/activate; spark-submit --master $(<spark-master.url) helloworld.py```
+You may submit a job using (bash syntax) e.g. ```spark-submit --master $(<spark-master.url) helloworld.py```
 
 ## Stopping the Cluster
 To stop the jobs either call ```./spark.stop.sh``` or manually delete spark-master.url
