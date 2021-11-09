@@ -3,7 +3,7 @@ This repository contains submit file and shell scripts to start Apache Spark in 
 
 ## Prerequisites
 * HTCondor (vanilla universe)
-* Spark 2.40
+* Spark 2.4.0
 * Network access between the cluster nodes
 * Python 3
 
